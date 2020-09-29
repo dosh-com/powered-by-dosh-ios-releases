@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name = 'PoweredByDosh'
-    spec.version = '2.1.0'
+    spec.version = '2.2.0'
     spec.summary = 'PoweredByDosh iOS SDK'
     spec.description = <<-DESC
                         PoweredByDosh iOS SDK
@@ -8,11 +8,10 @@ Pod::Spec.new do |spec|
                         DESC
 
     spec.homepage = 'https://poweredby.dosh.com/doc/'
-    spec.license = { :type => 'Private', :file => 'PoweredByDosh/LICENSE' }
+    spec.license = { :type => 'Private', :file => 'PoweredByDosh.xcframework/LICENSE' }
     spec.authors = { 'Dosh Holdings Inc' => 'extservices@dosh.com' }
 
-    spec.source = { :http => 'https://poweredby-sdk-release.dosh.com/ios/2.1.0/PoweredByDosh.zip' }
+    spec.source = { :http => 'https://poweredby-sdk-release.dosh.com/ios/2.2.0/PoweredByDosh.zip' }
     spec.ios.deployment_target = '11.0'
-    spec.ios.vendored_frameworks = 'PoweredByDosh/PoweredByDosh.xcframework'
-    spec.preserve_path = 'PoweredByDosh/{Changelog.md,LICENSE}'
+    spec.ios.vendored_frameworks = 'PoweredByDosh.xcframework'
 end

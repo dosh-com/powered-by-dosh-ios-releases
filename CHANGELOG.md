@@ -2,6 +2,11 @@
 
 Full SDK documentation is [available online](https://poweredby.dosh.com/doc/).
 
+## Release 2.2
+
+* Adds support to launch the SDK directly to the account summary view
+    * Pass in `.accountSummary` for the landing screen parameter on the `presentRewards` method
+
 ## Release 2.1
 
 * Adds support for an account summary view detailing a user's lifetime cashback and transactions. 
@@ -35,8 +40,6 @@ Full SDK documentation is [available online](https://poweredby.dosh.com/doc/).
 ## Release 1.1
 
 Adds additional theming options for the SDK. Consumers can now customize the display of logos and brand banners.
-
-??? abstract "Swift"
 
     ``` swift
     struct CustomTheme: PoweredByDoshTheme {
