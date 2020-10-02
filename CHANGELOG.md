@@ -2,6 +2,11 @@
 
 Full SDK documentation is [available online](https://poweredby.dosh.com/doc/).
 
+## Release 2.2.1
+
+* Updates `copy-framework-symbols.sh` script to support embedding debug symbols for CocoaPods installations when compiling with Xcode 12.
+    * For manual installations, Xcode 12 supports automatically embedding debug symbols that are included with XCFrameworks, but as of CocoaPods 1.10.0.rc.1, CocoaPods does not automatically embed XCFramework debug symbols ([CocoaPods #10111](https://github.com/CocoaPods/CocoaPods/issues/10111)).
+
 ## Release 2.2
 
 * Adds support to launch the SDK directly to the account summary view
