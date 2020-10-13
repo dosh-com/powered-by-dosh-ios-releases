@@ -2,6 +2,11 @@
 
 Full SDK documentation is [available online](https://poweredby.dosh.com/doc/).
 
+## Release 2.3
+
+* Adds support for additional online offer content
+* Adds support for installation through Swift Package Manager by specifying a package source of `https://github.com/dosh-com/powered-by-dosh-ios-releases.git`
+
 ## Release 2.2.1
 
 * Updates `copy-framework-symbols.sh` script to support embedding debug symbols for CocoaPods installations when compiling with Xcode 12.
