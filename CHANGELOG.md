@@ -2,6 +2,10 @@
 
 Full SDK documentation is [available online](https://poweredby.dosh.com/doc/).
 
+## Release 2.4
+
+* Adds optional `rewardsSummaryInfo` property that can be used to display informational text on the account summary screen.
+
 ## Release 2.3
 
 * Adds support for additional online offer content
