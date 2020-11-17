@@ -2,6 +2,10 @@
 
 Full SDK documentation is [available online](https://poweredby.dosh.com/doc/).
 
+## Release 2.4.1
+
+* Fixes a layout bug that caused longer offer details descriptions to be cut off before the end of the text.
+
 ## Release 2.4
 
 * Adds optional `rewardsSummaryInfo` property that can be used to display informational text on the account summary screen.
