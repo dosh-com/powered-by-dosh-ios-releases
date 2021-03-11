@@ -2,6 +2,14 @@
 
 Full SDK documentation is [available online](https://poweredby.dosh.com/doc/).
 
+## Release 2.5.0
+
+* Adds support for displaying a server-driven locked state in the offer feed.
+* Adds support for displaying program terms in the offer feed.
+* Adds support for server-driven customization of section titles on the activity screen.
+* Removes CLLocationCoordinate2D & UIView.ContentMode extensions which were being exposed through the SDK's swiftmodule.
+* Adds architecture support for the arm64 simulator (on M1 Macs). If you were previously setting `EXCLUDED_ARCHS="arm64"` in your build settings, this is no longer necessary.
+
 ## Release 2.4.1
 
 * Fixes a layout bug that caused longer offer details descriptions to be cut off before the end of the text.
@@ -9,6 +17,7 @@ Full SDK documentation is [available online](https://poweredby.dosh.com/doc/).
 ## Release 2.4
 
 * Adds optional `rewardsSummaryInfo` property that can be used to display informational text on the account summary screen.
+* Now generating the xcframework using Xcode 12 and the iOS 14 SDK.
 
 ## Release 2.3
 
