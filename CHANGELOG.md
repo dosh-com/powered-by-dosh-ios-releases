@@ -2,6 +2,10 @@
 
 Full SDK documentation is [available online](https://poweredby.dosh.com/doc/).
 
+## Release 2.5.1
+
+* Fixes `error: couldn't IRGen expression` that occurred when interacting with the debugger in some integration configurations ([Swift SR-12783](https://bugs.swift.org/browse/SR-12783)).
+
 ## Release 2.5.0
 
 * Adds support for displaying a server-driven locked state in the offer feed.
