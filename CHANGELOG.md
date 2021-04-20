@@ -2,6 +2,12 @@
 
 Full SDK documentation is [available online](https://poweredby.dosh.com/doc/).
 
+## Release 2.6.0
+
+* Adds support for presenting the SDK via an SDK deep link.
+* Adds support for presenting the SDK via an app deep link from our Marketing API.
+* Adds a `DoshErrorDelegate` protocol that can be implemented to receive error events from the SDK for debugging or analytic purposes.
+
 ## Release 2.5.1
 
 * Fixes `error: couldn't IRGen expression` that occurred when interacting with the debugger in some integration configurations ([Swift SR-12783](https://bugs.swift.org/browse/SR-12783)).
