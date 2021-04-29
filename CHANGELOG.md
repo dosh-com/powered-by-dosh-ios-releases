@@ -2,6 +2,10 @@
 
 Full SDK documentation is [available online](https://poweredby.dosh.com/doc/).
 
+## Release 2.6.1
+
+* Removes access of the Advertising Identifier. 
+
 ## Release 2.6.0
 
 * Adds support for presenting the SDK via an SDK deep link.
