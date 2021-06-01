@@ -2,6 +2,11 @@
 
 Full SDK documentation is [available online](https://poweredby.dosh.com/doc/).
 
+## Release 2.7.0
+
+* Adds support for Card Vaulting through the optional `DoshCardVaulting` module.
+* Removes unused device-related analytic event properties. See the [Device Info](https://poweredby.dosh.com/doc/data.html) section on the Analytics documentation page for more info. 
+
 ## Release 2.6.1
 
 * Removes access of the Advertising Identifier. 
