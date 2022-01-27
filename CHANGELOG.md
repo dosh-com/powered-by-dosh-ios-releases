@@ -2,6 +2,12 @@
 
 Full SDK documentation is [available online](https://poweredby.dosh.com/doc/).
 
+## Release 2.7.1
+
+* Adds a workaround for SDK version compatibilty with the "manage app version and build number" setting introduced in Xcode 13. When this setting is utilized, Xcode overwrites embedded framework version information with the app's version. This workaround introduces a namespaced version so that the SDK is able to track its version separately from the app, even when the "manage app version and build number" setting is used.
+* Fixes a bug that could cause an online offer's web view to fail to launch.
+* Fixes memory leaks.
+
 ## Release 2.7.0
 
 * Adds support for Card Vaulting through the optional `DoshCardVaulting` module.
