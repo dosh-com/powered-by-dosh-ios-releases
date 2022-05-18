@@ -22,17 +22,17 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "PoweredByDosh",
-            url: "https://poweredby-sdk-release.dosh.com/ios/2.7.1/PoweredByDosh.zip",
+            url: "https://poweredby-sdk-release.dosh.com/ios/2.8.0/PoweredByDosh.zip",
             // To compute the checksum for the zip file, run:
             //    $ swift package compute-checksum <path/to/xcframework.zip>
-            checksum: "e89ec7ccfb46ba3b1f9b8e943470ab1e2b014a63f4274dbccb01cf204d67a17b"
+            checksum: "80cb7dd470aa129275d985cfc090e283d4bd28152bc0e8f71ae2a69817528bdd"
         ),
         .binaryTarget(
             name: "DoshCardVaulting",
-            url: "https://poweredby-sdk-release.dosh.com/ios/2.7.1/DoshCardVaulting.zip",
+            url: "https://poweredby-sdk-release.dosh.com/ios/2.8.0/DoshCardVaulting.zip",
             // To compute the checksum for the zip file, run:
             //    $ swift package compute-checksum <path/to/xcframework.zip>
-            checksum: "344faea78ae0f61bffb02ba1fbed61e042599bcac47b91f542de6a5593f2cfa0"
+            checksum: "c2729023bbfc1351af41e647c72fae8ddaf1ce51fd6e95a3ff47c268dc42fe3c"
         )
     ]
 )

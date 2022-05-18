@@ -2,6 +2,13 @@
 
 Full SDK documentation is [available online](https://poweredby.dosh.com/doc/).
 
+## Release 2.8.0
+
+* BREAKING - Xcode 13.0 or later required
+* BREAKING - Updated minimum iOS deployment target to iOS 13.0
+* Support for future engagement constructs.
+* Updates to the optional DoshCardVaulting module to meet compliance requirements.
+
 ## Release 2.7.1
 
 * Adds a workaround for SDK version compatibilty with the "manage app version and build number" setting introduced in Xcode 13. When this setting is utilized, Xcode overwrites embedded framework version information with the app's version. This workaround introduces a namespaced version so that the SDK is able to track its version separately from the app, even when the "manage app version and build number" setting is used.
