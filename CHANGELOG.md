@@ -2,6 +2,13 @@
 
 Full SDK documentation is [available online](https://poweredby.dosh.com/doc/).
 
+## Release 3.0.0
+
+* BREAKING - Dosh.initialize(applicationId:) has been renamed to Dosh.initialize(partnerType: PartnerType, applicationId: ApplicationId)
+* Adds support for activatable offer types
+* Adds support for accessibility controls for ADA compliance
+* Adds support for future engagement constructs
+
 ## Release 2.8.0
 
 * BREAKING - Xcode 13.0 or later required
