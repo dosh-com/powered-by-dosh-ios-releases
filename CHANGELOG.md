@@ -2,12 +2,17 @@
 
 Full SDK documentation is [available online](https://poweredby.dosh.com/doc/).
 
+## Release 3.0.1
+
+* Adds privacy manifest files
+
 ## Release 3.0.0
 
 * BREAKING - Dosh.initialize(applicationId:) has been renamed to Dosh.initialize(partnerType: PartnerType, applicationId: ApplicationId)
 * Adds support for activatable offer types
 * Adds support for accessibility controls for ADA compliance
 * Adds support for future engagement constructs
+* Enable new client side UI feature - enable background color to be dynamic and the ability to be grouped by colors
 
 ## Release 2.8.0
 
