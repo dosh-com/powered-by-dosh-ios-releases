@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name = 'PoweredByDosh'
-    spec.version = '3.0.1'
+    spec.version = '3.0.2'
     spec.summary = 'PoweredByDosh iOS SDK'
     spec.description = <<-DESC
                         PoweredByDosh iOS SDK
@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
 
     spec.ios.deployment_target = '11.0'
 
-    spec.source = { :http => 'https://poweredby-sdk-release.dosh.com/ios/3.0.1/PoweredByDosh-all.zip' }
+    spec.source = { :http => 'https://poweredby-sdk-release.dosh.com/ios/3.0.2/PoweredByDosh-all.zip' }
     spec.default_subspec = 'PoweredByDosh'
     spec.module_name = 'PoweredByDosh'
 

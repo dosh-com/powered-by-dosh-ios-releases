@@ -2,6 +2,10 @@
 
 Full SDK documentation is [available online](https://poweredby.dosh.com/doc/).
 
+## Release 3.0.2
+
+* Update privacy manifest files
+
 ## Release 3.0.1
 
 * Adds privacy manifest files
