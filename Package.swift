@@ -25,14 +25,14 @@ let package = Package(
             url: "https://poweredby-sdk-release.dosh.com/ios/3.0.2/PoweredByDosh.zip",
             // To compute the checksum for the zip file, run:
             //    $ swift package compute-checksum <path/to/xcframework.zip>
-            checksum: "59d85accc5f9e6e8133c3e71c85fb9bf550d670e5bc8fe1af36af177ea5f37a2"
+            checksum: "e8958bb2fddbe5fb6b93e575ec8bb993c6757a0d7c039f91cb999d41093d6c94"
         ),
         .binaryTarget(
             name: "DoshCardVaulting",
             url: "https://poweredby-sdk-release.dosh.com/ios/3.0.2/DoshCardVaulting.zip",
             // To compute the checksum for the zip file, run:
             //    $ swift package compute-checksum <path/to/xcframework.zip>
-            checksum: "39c324ab293ab21478dad7838b15ff17807b253bf1938a992bc676144e8550e9"
+            checksum: "b3bb91f63ff0c067c817a2a2c4757491b6ab90ea13e905fac82b073fc7b66fe4"
         )
     ]
 )
